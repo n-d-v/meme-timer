@@ -10,6 +10,7 @@ div#input{
     background-color: #00f8;
     padding: 15px;
     width: fit-content;
+    pointer-events: none;
 }
 div#countdown{
     display: block;
@@ -17,7 +18,7 @@ div#countdown{
     width: 99.99%;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 15rem;
+    font-size: 12rem;
     color: #DDF;
 }
 body.inverted{
