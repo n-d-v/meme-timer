@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+div#input{
+    display: inline-block;
+    background-color: #00f8;
+    padding: 15px;
+    width: fit-content;
+}
+div#countdown{
+    display: block;
+    position: absolute;
+    width: 99.99%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15rem;
+    color: #DDF;
+}
+body.inverted{
+    background-color: #E66
+}
+div#countdown.inverted{
+    color: #002;
+}
